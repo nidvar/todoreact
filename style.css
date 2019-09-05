@@ -1,0 +1,47 @@
+body{
+	padding:50px;
+	text-align: center;
+	background-image:url('banner.jpg')
+}
+h1{
+	font-weight:lighter;
+	font-size:60px;
+}
+.todolist{
+	background-color:#DFDEDD;
+	width:600px;
+	margin:auto;
+	padding:40px 50px 80px 50px;
+}
+.todo{
+	width:500px;
+	padding: 0 5px 40px 5px;
+	display:flex;
+	height:30px;
+	margin:20px auto 20px auto;
+	border-bottom:1px solid grey;
+	justify-content: space-between
+}
+.flex-container{
+	display:flex;
+	align-items: baseline;
+}
+.todo button{
+	padding:0 6px 0 6px;
+	color:white;
+}
+.todoform button{
+	padding:2px 6px 2px 6px;
+	color:white;
+	margin:0 0 4px 0
+}
+.todo p{
+	font-size:16px;
+	margin:0 20px 0 5px;
+}
+.todo button{
+	margin:0 0 0 5px;
+}
+.todoform{
+	margin:20px 20px 40px 20px;
+}
