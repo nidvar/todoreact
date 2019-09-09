@@ -70,12 +70,12 @@ class TodoList extends React.Component{
     }
     render(){
         return(
-            <div className='todolist'>
-                <h1>ReactJS Todo App</h1>
-                <p>Using local storage</p>
+            <div className='the_app'>
+                <h4><b>Todo App</b></h4>
+                <p><b>with ReactJS</b></p>
                 <TodoForm function_one={this.grab_todos} search={this.search}/>
                 {this.display_todos()}
-            </div>
+            </div> 
         )
     }
 }

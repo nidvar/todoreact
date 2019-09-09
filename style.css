@@ -1,47 +1,52 @@
 body{
-	padding:50px;
-	text-align: center;
-	background-image:url('banner.jpg')
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	height:80vh;
+	background-color:lightblue;
 }
-h1{
-	font-weight:lighter;
-	font-size:60px;
+.the_app{
+	background-color:white;
+	min-width:700px;
+	padding:20px;
+	border:1px solid lightgrey;
+	border-radius:3px;
+	box-shadow: 2px 2px 1px grey;
 }
-.todolist{
-	background-color:#DFDEDD;
-	width:600px;
-	margin:auto;
-	padding:40px 50px 80px 50px;
+.todoform{
+	margin-bottom:20px;
+}
+.todoform button{
+	margin-bottom:3px;
+}
+.todo button{
+	padding:0 6px 0 6px;
+	color:white;
+	margin:2px;
+}
+.todoform button{
+	padding:2px 6px 2px 6px;
 }
 .todo{
-	width:500px;
-	padding: 0 5px 40px 5px;
 	display:flex;
-	height:30px;
-	margin:20px auto 20px auto;
-	border-bottom:1px solid grey;
 	justify-content: space-between
 }
 .flex-container{
 	display:flex;
 	align-items: baseline;
 }
-.todo button{
-	padding:0 6px 0 6px;
-	color:white;
+.the_input{
+	min-width:600px;
+	margin:5px;
 }
-.todoform button{
-	padding:2px 6px 2px 6px;
-	color:white;
-	margin:0 0 4px 0
+p{
+	margin-left:3px;
 }
-.todo p{
-	font-size:16px;
-	margin:0 20px 0 5px;
-}
-.todo button{
-	margin:0 0 0 5px;
-}
-.todoform{
-	margin:20px 20px 40px 20px;
-}
+@media only screen and (max-width: 600px) {
+	.the_app{
+		min-width:90vw;
+	}
+	.the_input{
+		min-width:60vw;
+	}
+  }

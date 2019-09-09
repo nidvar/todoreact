@@ -52,7 +52,7 @@ class Todo extends React.Component{
             return(
                 <div className='todo'>
                     <form onSubmit={this.done_editing}>
-                        <input onChange={this.handleChange} />
+                        <input className='the_input' onChange={this.handleChange} />
                         <button className='btn btn-success' >SUBMIT</button>
                     </form>    
                 </div>
